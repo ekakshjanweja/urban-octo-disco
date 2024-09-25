@@ -2,15 +2,20 @@
 
 A new Flutter project.
 
-## Getting Started
+## How to run the project
+
+```dart
+flutter run
+```
+
+## Project Structure
+
+1. lib/main.dart -> App entry point
+2. lib/app.dart -> Material app
+3. lib/screens/home.dart -> Home screen implementation + Google Maps Implementation
+4. lib/widgets -> Multiple app widgets
+5. lib/core/location_provider.dart -> provider for location and updating custom map markers
 
 This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### [Video Demo](https://youtube.com/shorts/TnO2li8Rzek?feature=share)
